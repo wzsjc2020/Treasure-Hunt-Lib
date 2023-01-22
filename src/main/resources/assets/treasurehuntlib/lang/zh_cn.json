@@ -1,0 +1,8 @@
+{
+  "itemGroup.treasurehuntlib.tab": "Treasure Hunt Lib",
+  "item.treasurehuntlib.flower_seeds": "花种子",
+  "item.treasurehuntlib.rose_seeds": "玫瑰",
+  "block.treasurehuntlib.example_stone_block": "演示用的石头",
+  "block.treasurehuntlib.shoveled_stone_block": "被挖掘过的石头",
+  "enchantment.treasurehuntlib.treasure": "宝藏"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "treasurehuntlib:item/flower_seeds"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "variants": {
+    "moisture=0": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 270
+      }
+    ],
+    "moisture=1": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 270
+      }
+    ],
+    "moisture=2": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 270
+      }
+    ],
+    "moisture=3": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 270
+      }
+    ],
+    "moisture=4": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block",
+        "y": 270
+      }
+    ],
+    "moisture=5": [
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block_moist"
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block_moist",
+        "y": 90
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block_moist",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/shoveled_block/shoveled_stone_block_moist",
+        "y": 270
+      }
+    ]
+  }
+}

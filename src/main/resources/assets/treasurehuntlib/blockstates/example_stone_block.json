@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "treasurehuntlib:block/example_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/example_stone_block"
+      },
+      {
+        "model": "treasurehuntlib:block/example_stone_block",
+        "y": 180
+      },
+      {
+        "model": "treasurehuntlib:block/example_stone_block",
+        "y": 180
+      }
+    ]
+  }
+}

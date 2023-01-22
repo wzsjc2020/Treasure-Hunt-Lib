@@ -1,0 +1,6 @@
+{
+  "parent": "treasurehuntlib:block/cross",
+  "textures": {
+    "cross": "treasurehuntlib:block/flower_seedling_stage1"
+  }
+}
