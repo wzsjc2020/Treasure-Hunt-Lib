@@ -14,7 +14,7 @@ This lib allows you custom a vanilla or mod block into a **custom shoveled block
 
 ## Examples
 
-![](img\custom_loot_table.gif)
+![](img/custom_loot_table.gif)
 
 Example 1: you can find treasure in grass block. when finish excavating block, it will turn this block into a shoveled state. you also can gain extra loots from excavating.
 
@@ -22,7 +22,7 @@ Challenge Level ::star: :star::star:
 
 
 
-![](img\random_tick.gif)
+![](img/random_tick.gif)
 
 Example 2: make custom shoveled blocks acting like farmland
 
@@ -30,7 +30,7 @@ Challenge Level ::star:
 
 
 
-![](img\grow_flowers.png)
+![](img/grow_flowers.png)
 
 Example 3: grow custom plants/seeds on shoveled blocks 
 
