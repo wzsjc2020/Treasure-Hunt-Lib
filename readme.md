@@ -60,7 +60,7 @@ repositories {
 }
 
 dependencies {
-	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.0.2"}")
+	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.0.3"}")
 }
 
 ```
