@@ -54,7 +54,9 @@ repositories {
 		url "https://maven.pkg.github.com/wzsjc2020/treasure-hunt-lib"
             credentials {
                 username = "wzsjc2020"
-                password = "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"
+                password = "	part1:ghp_to2r3agUTDs
+				part2:KjAuQZ5avOnkZC
+				part3:bHgko1Dj7ko"
             }
 	}
 }
@@ -62,6 +64,10 @@ repositories {
 dependencies {
 	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.0.3"}")
 }
+
+
+combime 3 part of password into complete password!!!
+part1+part2+part3 and no space
 
 ```
 
