@@ -32,9 +32,11 @@ Challenge Level ::star:
 
 
 
-![](img/grow_flowers.png)
+![](img/more_crops.png)
 
 Example 3: grow custom plants/seeds on shoveled blocks 
+
+v17.0.5update : allow plant vanilla Minecraft crops
 
 Challenge Level ::star: 
 
@@ -54,19 +56,19 @@ repositories {
 		url "https://maven.pkg.github.com/wzsjc2020/treasure-hunt-lib"
             credentials {
                 username = "wzsjc2020"
-                password = "	part1:ghp_to2r3agUTDs
-				part2:KjAuQZ5avOnkZC
-				part3:bHgko1Dj7ko"
+                password = "
+                    part1:ghp_to2r3agUTDs
+                    part2:KjAuQZ5avOnkZC
+                    part3:bHgko1Dj7ko"
             }
 	}
 }
 
 dependencies {
-	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.0.3"}")
+	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.0.5"}")
 }
 
-
-combime 3 part of password into complete password!!!
+combime 3 parts of password into complete password!!!
 part1+part2+part3 and no space
 
 ```
