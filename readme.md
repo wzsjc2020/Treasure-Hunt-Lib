@@ -18,8 +18,6 @@ This lib allows you custom a vanilla or mod block into a **custom shoveled block
 
 Example 1: you can find treasure in grass block. when finish excavating block, it will turn this block into a shoveled state. you also can gain extra loots from excavating.
 
-v17.0.2update : allow custom complex loot table
-
 Challenge Level ::star: :star::star:
 
 
