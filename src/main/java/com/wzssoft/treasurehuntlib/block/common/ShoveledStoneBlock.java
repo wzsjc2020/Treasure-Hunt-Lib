@@ -1,7 +1,5 @@
 package com.wzssoft.treasurehuntlib.block.common;
 
-import com.wzssoft.treasurehuntlib.block.TreasureHuntLibBlocks;
-import com.wzssoft.treasurehuntlib.utils.MixinDataHelper;
 import com.wzssoft.treasurehuntlib.utils.TreasureHuntLibConstant;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -13,6 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
+import java.io.ObjectInputFilter;
 import java.util.ArrayList;
 
 /**
@@ -87,7 +86,6 @@ public class ShoveledStoneBlock extends AbstractShoveledBlock {
     /**
      * 需要重写以下3个方法
      */
-    //此方块上能种植植物
     @Override
     public boolean canPlantPlant(World world, BlockState floorState, BlockPos floorPos) {
         return true;
@@ -104,6 +102,15 @@ public class ShoveledStoneBlock extends AbstractShoveledBlock {
     @Override
     public ArrayList<Block> getSeedlingSurviveList() {
         return TreasureHuntLibConstant.STONE_BLOCK_SEEDLING_SURVIVE_LIST;
+    }
+
+    /**
+     * added since 17.0.5
+     * 获取作物生长的湿度
+     */
+    @Override
+    public int getMoisture(BlockState floorState) {
+        return floorState.get(MOISTURE);
     }
 
     @Override

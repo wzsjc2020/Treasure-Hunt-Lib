@@ -4,8 +4,9 @@
   "package": "com.wzssoft.treasurehuntlib.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MiningToolItemMixin",
-    "PlantBlockMixin"
+    "ServerPlayerInteractionManagerMixin",
+    "PlantBlockMixin",
+    "CropBlockMixin"
   ],
   "client": [
   ],

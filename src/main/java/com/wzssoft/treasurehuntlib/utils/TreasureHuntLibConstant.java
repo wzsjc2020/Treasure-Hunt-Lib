@@ -19,16 +19,6 @@ public class TreasureHuntLibConstant {
 
 
     public static void initConstant(){
-        STONE_BLOCK_PLANT_SURVIVE_LIST = new ArrayList<>() {{
-            add(Blocks.POPPY);
-            add(Blocks.WITHER_ROSE);
-        }};
-
-
-        STONE_BLOCK_SEEDLING_SURVIVE_LIST = new ArrayList<>() {{
-            add(TreasureHuntLibBlocks.ROSE_SEEDLING_BLOCK);
-        }};
-
 
         DEFAULT_PLANT_SURVIVE_LIST = new ArrayList<Block>() {{
             add(Blocks.DANDELION);               //蒲公英
@@ -49,6 +39,20 @@ public class TreasureHuntLibConstant {
             add(TreasureHuntLibBlocks.FLOWER_SEEDLING_BLOCK);
         }};
 
+
+        STONE_BLOCK_PLANT_SURVIVE_LIST = new ArrayList<>() {{
+            add(Blocks.CARROTS);
+            add(Blocks.WHEAT);
+            add(Blocks.POPPY);
+            add(Blocks.WITHER_ROSE);
+            addAll(DEFAULT_PLANT_SURVIVE_LIST);
+        }};
+
+
+        STONE_BLOCK_SEEDLING_SURVIVE_LIST = new ArrayList<>() {{
+            add(TreasureHuntLibBlocks.ROSE_SEEDLING_BLOCK);
+            add(TreasureHuntLibBlocks.FLOWER_SEEDLING_BLOCK);
+        }};
     }
 }
 

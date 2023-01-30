@@ -19,7 +19,7 @@ import net.minecraft.world.WorldView;
 import java.util.ArrayList;
 
 /**
- * added since 17.0.6
+ * added since 17.0.1
  *
  * @specialNote this block is an example for demonstrate
  */
@@ -48,9 +48,8 @@ public class RoseSeedlingBlock extends PlantBlock {
     //是否可以种植在特定方块上面
     @Override
     protected boolean canPlantOnTop(BlockState floorState, BlockView world, BlockPos floorPos) {
-
         World world1 = (World) world;
-        if (((world1.getBaseLightLevel(floorPos, 0) >= 8 || world1.isSkyVisible(floorPos)) && floorState.getBlock() instanceof AbstractShoveledBlock block && block.canPlantPlant(world1, floorState, floorPos))) {
+        if (floorState.getBlock() instanceof AbstractShoveledBlock block && block.canPlantPlant(world1, floorState, floorPos)) {
             if (block.hasAirOnTop(world1, floorPos)) {
                 return true;
             }

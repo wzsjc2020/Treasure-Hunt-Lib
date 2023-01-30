@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "treasurehuntlib:example_stone_block",
+    "treasurehuntlib:shoveled_stone_block"
+  ]
+}

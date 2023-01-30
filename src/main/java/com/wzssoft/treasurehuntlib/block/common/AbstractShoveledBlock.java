@@ -47,6 +47,7 @@ public class AbstractShoveledBlock extends Block implements Farmland {
         if (!this.getDefaultState().canPlaceAt(ctx.getWorld(), ctx.getBlockPos())) {
             return getOriginalBlockState(ctx.getWorld(), ctx.getBlockPos());
         }
+
         return super.getPlacementState(ctx);
     }
 
@@ -55,7 +56,7 @@ public class AbstractShoveledBlock extends Block implements Farmland {
     }
 
     private BlockState getOriginalBlockState(World world, BlockPos pos) {
-        return MixinDataHelper.REVERSED_TREASURE_ENCHANTMENT_EFFECT_BLOCK_MAP.get(this).getDefaultState();
+        return MixinDataHelper.getReversedTreasureEnchantmentEffectBlockMap().get(this).getDefaultState();
     }
 
     @Override
@@ -83,5 +84,10 @@ public class AbstractShoveledBlock extends Block implements Farmland {
     public boolean hasAirOnTop(World world, BlockPos floorPos) {
         BlockState state = world.getBlockState(floorPos.up());
         return state.isAir();
+    }
+
+    @Override
+    public int getMoisture(BlockState floorState) {
+        return 0;
     }
 }

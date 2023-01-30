@@ -3,6 +3,7 @@ package com.wzssoft.treasurehuntlib.item;
 import com.wzssoft.treasurehuntlib.TreasureHuntLib;
 import com.wzssoft.treasurehuntlib.block.TreasureHuntLibBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -20,10 +21,10 @@ public class TreasureHuntLibBlockItems {
             new AliasedBlockItem(TreasureHuntLibBlocks.ROSE_SEEDLING_BLOCK, new FabricItemSettings().group(TreasureHuntLibItemGroup.ExtraCraft).rarity(Rarity.EPIC)));
 
     public static final Item SHOVELED_STONE_BLOCK_ITEM = registerBlockItem("shoveled_stone_block",
-            new AliasedBlockItem(TreasureHuntLibBlocks.SHOVELED_STONE_BLOCK, new FabricItemSettings().group(TreasureHuntLibItemGroup.ExtraCraft).rarity(Rarity.EPIC)));
+            new BlockItem(TreasureHuntLibBlocks.SHOVELED_STONE_BLOCK, new FabricItemSettings().group(TreasureHuntLibItemGroup.ExtraCraft).rarity(Rarity.EPIC)));
 
     public static final Item EXAMPLE_STONE_BLOCK_ITEM = registerBlockItem("example_stone_block",
-            new AliasedBlockItem(TreasureHuntLibBlocks.EXAMPLE_STONE_BLOCK, new FabricItemSettings().group(TreasureHuntLibItemGroup.ExtraCraft).rarity(Rarity.EPIC)));
+            new BlockItem(TreasureHuntLibBlocks.EXAMPLE_STONE_BLOCK, new FabricItemSettings().group(TreasureHuntLibItemGroup.ExtraCraft).rarity(Rarity.EPIC)));
 
 
     //因为方块和需要同时注册一个item，以便能在物品栏中找到该方块

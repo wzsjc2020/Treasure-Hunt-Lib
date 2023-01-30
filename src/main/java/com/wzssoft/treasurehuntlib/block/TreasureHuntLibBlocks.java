@@ -13,16 +13,16 @@ import net.minecraft.util.registry.Registry;
 public class TreasureHuntLibBlocks {
 
     public static final Block ROSE_SEEDLING_BLOCK = registerBlock("rose_seedling",
-            new RoseSeedlingBlock(FabricBlockSettings.of(Material.PLANT).breakInstantly().ticksRandomly().noCollision().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ)));
+            new RoseSeedlingBlock(FabricBlockSettings.of(Material.PLANT).breakInstantly().ticksRandomly().noCollision().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ).nonOpaque()));
 
     public static final Block FLOWER_SEEDLING_BLOCK = registerBlock("flower_seedling",
-            new FlowerSeedlingBlock(FabricBlockSettings.of(Material.PLANT).breakInstantly().ticksRandomly().noCollision().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ)));
+            new FlowerSeedlingBlock(FabricBlockSettings.of(Material.PLANT).breakInstantly().ticksRandomly().noCollision().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ).nonOpaque()));
 
     public static final Block SHOVELED_STONE_BLOCK = registerBlock("shoveled_stone_block",
-            new ShoveledStoneBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).requiresTool().strength(1.5f, 6.0f).nonOpaque()));
+            new ShoveledStoneBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).requiresTool().strength(1.5f, 6.0f)));
 
     public static final Block EXAMPLE_STONE_BLOCK = registerBlock("example_stone_block",
-            new ExampleStoneBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).requiresTool().strength(1.5f, 6.0f).nonOpaque()));
+            new ExampleStoneBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).requiresTool().strength(1.5f, 6.0f)));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -21,4 +21,6 @@ public interface Farmland {
     ArrayList<Block> getSeedlingSurviveList();
 
     boolean hasAirOnTop(World world, BlockPos floorPos);
+
+    int getMoisture(BlockState floorState);
 }

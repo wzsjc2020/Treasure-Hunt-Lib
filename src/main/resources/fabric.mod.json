@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "treasurehuntlib",
-  "version": "17.0.1",
+  "version": "17.1.2",
 
   "name": "Treasure Hunt",
   "description": "find buried treasure in world",
@@ -9,7 +9,7 @@
     "WZSJC2023"
   ],
   "contact": {
-    "homepage": "https://github.com/wzsjc2020"
+    "homepage": "https://github.com/wzsjc2020/Treasure-Hunt-Lib"
   },
 
   "license": "CC BY-NC-SA 4.0",
