@@ -63,7 +63,7 @@ repositories {
 }
 
 dependencies {
-	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.1.0"}")
+	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.1.2"}")
 }
 
 combime 3 parts of password into complete password!!!
