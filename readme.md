@@ -63,12 +63,13 @@ repositories {
 }
 
 dependencies {
-	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.1.2"}")
+	modImplementation ("com.wzssoft:treasurehuntlib:${"1.19-17.1.3"}")
 }
 
 combime 3 parts of password into complete password!!!
 part1+part2+part3 and no space
 
+Important!!! if you are using v17.1.2 and earilier version, update to v17.1.3 as soon as possible
 ```
 
 
